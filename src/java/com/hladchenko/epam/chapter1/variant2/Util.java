@@ -1,5 +1,6 @@
 package com.hladchenko.epam.chapter1.variant2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Util {
@@ -12,5 +13,9 @@ public class Util {
             numbers[i] = scanner.nextInt();
         }
         return numbers;
+    }
+
+    public static void printNumbers(int[] numbers) {
+        System.out.println(Arrays.toString(numbers));
     }
 }
